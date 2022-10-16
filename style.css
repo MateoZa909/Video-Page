@@ -50,7 +50,7 @@ nav ul li a {
     font-size: 17px;
 }
 
-nav ul li a:active {
+nav ul li a:hover {
     text-decoration: none;
     display: inline-block;
     color: #000;
@@ -85,7 +85,7 @@ nav ul li a:active {
     transition: 0.5s;
 }
 
-.content a:active {
+.content a:hover {
     background: #fff;
     color: #000;
     transition: 0.5s;
@@ -118,17 +118,6 @@ nav ul li a:active {
         align-items: center;
         flex-direction: column;
         margin-right: 30px;
-    }
-    nav ul li a:active {
-        text-decoration: none;
-        /* display: inline-block; */
-        font-size: 18px;
-        border: 2px solid #fff;
-        padding: 7px calc(2 / 70px);
-        border-radius: 50px;
-        margin-top: 20px;
-        transition: 0.5s;
-        background: transparent;
     }
     .content {
         margin-top: 50%;
